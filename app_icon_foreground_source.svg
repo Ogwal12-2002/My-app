@@ -1,0 +1,30 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent background — Android supplies the background layer
+       (adaptive_icon_background color) separately. Content is scaled
+       into the ~66% center safe zone so it isn't clipped by circular
+       or squircle masks on different launchers. -->
+  <g transform="translate(512,512) scale(0.72) translate(-512,-512)">
+    <g fill="#FFFFFF">
+      <rect x="280" y="280" width="160" height="160" rx="24"/>
+      <rect x="320" y="320" width="80" height="80" rx="10" fill="#2F6FED"/>
+
+      <rect x="584" y="280" width="160" height="160" rx="24"/>
+      <rect x="624" y="320" width="80" height="80" rx="10" fill="#2F6FED"/>
+
+      <rect x="280" y="584" width="160" height="160" rx="24"/>
+      <rect x="320" y="624" width="80" height="80" rx="10" fill="#2F6FED"/>
+
+      <rect x="600" y="600" width="56" height="56" rx="8"/>
+      <rect x="668" y="600" width="56" height="56" rx="8"/>
+      <rect x="600" y="668" width="56" height="56" rx="8"/>
+      <rect x="668" y="668" width="56" height="56" rx="8"/>
+    </g>
+
+    <g stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" fill="none">
+      <path d="M 140 260 L 140 180 Q 140 140 180 140 L 260 140"/>
+      <path d="M 764 140 L 844 140 Q 884 140 884 180 L 884 260"/>
+      <path d="M 884 764 L 884 844 Q 884 884 844 884 L 764 884"/>
+      <path d="M 260 884 L 180 884 Q 140 884 140 844 L 140 764"/>
+    </g>
+  </g>
+</svg>

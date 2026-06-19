@@ -1,0 +1,18 @@
+# RELEASE SIGNING CONFIG — DO NOT COMMIT THE REAL VERSION OF THIS FILE
+#
+# 1. Generate your upload keystore (run once, keep the .jks file forever —
+#    losing it means you can never update your app on Play Store again):
+#
+#    keytool -genkey -v -keystore ~/upload-keystore.jks \
+#      -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+#
+# 2. Copy this file to `android/key.properties` (same folder, drop ".template")
+#    and fill in your real values below.
+#
+# 3. Add `android/key.properties` and `*.jks` to .gitignore — never commit
+#    real signing credentials to version control.
+
+storePassword=REPLACE_WITH_YOUR_KEYSTORE_PASSWORD
+keyPassword=REPLACE_WITH_YOUR_KEY_PASSWORD
+keyAlias=upload
+storeFile=/absolute/path/to/upload-keystore.jks
